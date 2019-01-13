@@ -1,0 +1,293 @@
+.page-header,body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    background: url(https://cdn.shopify.com/s/files/1/0879/0542/products/pc1478_da4bcba9-c02d-40bd-88c6-8b32119d8933_1024x1024.jpg?v=1513990783);
+    background-color: lightgoldenrodyellow;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    color: whitesmoke;
+    font-weight:500;
+}
+.loginh2 {
+    color: gainsboro;
+    font-weight: 900;
+    text-shadow: 2px 0px 6px #010101, 1px 1px 5px #030303;
+
+}
+
+.loginh2:active{
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5), -1px -1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.loginh2:hover{
+    color: whitesmoke;
+    font-weight: 900;
+}
+
+.fa, .fas, .far {
+    color: gainsboro;
+    font-weight: 900;
+    text-shadow: 2px 0px 6px #010101, 1px 1px 5px #030303;
+}
+
+.fa:active, .fas:active, .far:active {
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5), -1px -1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.fa:hover, .fas:hover, .far:hover {
+    color: whitesmoke;
+    font-weight: 900;
+}
+
+.page-header {
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+    background-color: cornflowerblue;
+ }
+
+.page-header h1, .page-header h1 a:active {
+    color: #f8f9fa;
+    font-size: 36pt;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5), -1px -1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.page-header h1, .page-header h1 a:hover {
+    color: #f8f9fa;
+    font-size: 36pt;
+    text-decoration: none;
+}
+.page-header h1, .page-header h1 a {
+    color: gainsboro;
+    font-size: 36pt;
+    text-decoration: none;
+    text-shadow: 2px 0px 6px #010101, 1px 1px 5px #030303;
+}
+
+/*
+this will make everything like Rafeh Qazi's blogpage font and sizes
+h1, h2, h3, h4 {
+  font-family: 'Tangerine', 'Inconsolata', 'Droid Sans', serif;
+  font-size: 48px;
+}
+*/
+
+.content {
+  margin-left: 40px;
+}
+
+/*body {
+    background-color: paleturquoise;
+}*/
+
+body h1 a {
+  color: #e9e7e749;
+}
+
+
+.comment {
+    text-align: center;
+    width: 320px;
+    background: hsla(231, 78%, 26%, 0.829);
+    margin: 20px 0px 20px 20px;
+  }
+
+.date {
+    color: darkmagenta;
+    text-shadow: 2px 0px 6px #86131300, 5px 6px 5px #030303;
+    font-weight: bolder;
+}
+
+.post {
+    margin-bottom: 70px;
+    margin: 20px 0px 20px 20px;
+    max-width: 78%;
+    
+}
+
+.post h1 a:active {
+    color: #f8f9fa;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5), -1px -1px 1px rgba(0, 0, 0, 0.7);
+}
+.post h1 a {
+    color: cornflowerblue;
+    text-shadow: 0px 1px 0px #900000;
+}
+
+.post-form-blog textarea {
+    width:100%;
+}
+
+.post-form-blog .btn-primary {
+  float: right;
+}
+
+.top-menu{
+    color: gainsboro;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5), -1px -1px 1px rgba(0, 0, 0, 0.7);
+    text-shadow: 2px 0px 6px #010101, 1px 1px 5px #030303;
+}
+
+
+
+footer
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+ul{
+position: fixed;
+bottom: 1%;
+left:50%;
+transform: translate(-50%,-50%);
+margin: 0;
+padding: 0;
+display: flex;
+width: 640px;
+height: 60px;
+}
+
+ul:before {
+    content: '\f1e0';
+    font-family: Font Awesome\ 5 Free;
+    font-weight: 900;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(https://cdn.shopify.com/s/files/1/0879/0542/products/pc1478_da4bcba9-c02d-40bd-88c6-8b32119d8933_1024x1024.jpg?v=1513990783);
+    border-radius: 30px;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-size: 30px;
+    margin: 0.2px;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+ul:hover::before
+{
+    width: 60px;
+}
+ul li
+{
+    position: absolute;
+    list-style: none;
+    transition: 1s;
+}
+
+ul li a
+{
+    display: block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #262626;
+    color: #fff;
+    margin: 0.2px;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+ul li:nth-child(1) a
+{
+    background: #6e5494
+}
+ul li:nth-child(2) a
+{
+    background: #3b5999
+}
+ul li:nth-child(3) a
+{
+    background: #1769ff
+}
+ul li:nth-child(4) a
+{
+    background: #0077B5
+}
+ul li:nth-child(5) a
+{
+    background: #55acee
+}
+
+ul li:nth-child(6) a
+{
+    background: #25d366
+}
+ul li:nth-child(7) a
+{
+    background: #ff8833
+}
+ul li:nth-child(8) a
+{
+    background: #e4405f
+}
+ul li:nth-child(9) a
+{
+    background: #bd081c
+}
+ul li:nth-child(10) a
+{
+    background: #35465c
+}
+ul:hover li:nth-child(1) a
+{
+    transform: translateX(64px) rotate(720deg);
+    transition: 1.1s;
+}
+ul:hover li:nth-child(2) a
+{
+    transform: translateX(128px) rotate(720deg);
+    transition: 1.2s;
+}
+ul:hover li:nth-child(3) a
+{
+    transform: translateX(192px) rotate(720deg);
+    transition: 1.3s;
+}
+ul:hover li:nth-child(4) a
+{
+    transform: translateX(256px) rotate(720deg);
+    transition: 1.4s;
+}
+ul:hover li:nth-child(5) a
+{
+    transform: translateX(320px) rotate(720deg);
+    transition: 1.5s;
+}
+ul:hover li:nth-child(6) a
+{
+    transform: translateX(384px) rotate(720deg);
+    transition: 1.6s;
+}
+ul:hover li:nth-child(7) a
+{
+    transform: translateX(448px) rotate(720deg);
+    transition: 1.7s;
+}
+ul:hover li:nth-child(8) a
+{
+    transform: translateX(512px) rotate(720deg);
+    transition: 1.8s;
+}
+ul:hover li:nth-child(9) a
+{
+    transform: translateX(576px) rotate(720deg);
+    transition: 1.9s;
+}
+ul:hover li:nth-child(10) a
+{
+    transform: translateX(640px) rotate(720deg);
+    transition: 2.1s;
+}

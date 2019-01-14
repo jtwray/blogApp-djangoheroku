@@ -28,9 +28,9 @@ with open(os.path.join(BASE_DIR, 'secretkey.txt')) as f:
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-CRISPY_TEMPLATE_PACK = 'bootstrap*'
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
-ALLOWED_HOSTS = ['thawing-depths-54577.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['thawing-depths-54577.herokuapp.com', '127.0.0.1','localhost']
 
 LOGIN_REDIRECT_URL  = '/'
 # Application definition

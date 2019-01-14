@@ -30,7 +30,7 @@ DEBUG = True
 
 CRISPY_TEMPLATE_PACK = 'bootstrap*'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['thawing-depths-54577.herokuapp.com', '127.0.0.1']
 
 LOGIN_REDIRECT_URL  = '/'
 # Application definition

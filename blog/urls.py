@@ -40,7 +40,9 @@ urlpatterns = [
        # 127.0.0.1:8000/signup --> local
     # mydjangosite.com/signup--> online
     path('signup/',views.signup, name='signup'),
-    path('logout/',views.logout_view, name='logout')
+    # 127.0.0.1:8000/logout-->local
+    # mydjangosite.com/logout-->online
+    path('logout/', auth_views.LogoutView.as_view(), name='logout'),
     # path(r'^accounts/login/$', auth_views.LoginView.as_view(template_name='registration/login.html')),
     #path)
     #url('^change-password/$', auth_views.PasswordChangeView.as_view()),

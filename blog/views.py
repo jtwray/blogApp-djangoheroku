@@ -102,6 +102,6 @@ def signup(request):
         form = UserForm()
     return render(request, 'blog/signup.html', {'form': form})    
 
-def logout_view(request):
+def logoutView(request):
     logout(request)
     return redirect('/')

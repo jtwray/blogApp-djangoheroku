@@ -20,7 +20,7 @@
      <a href="{% url 'postDraftlist' %}" class="top-menu"> <span class="far fa-edit fa-2x" title="Drafts"></span></a>
      <a href="{% url 'postNew' %}" class="top-menu"> <span class="fas fa-plus fa-2x" title="New Post"></span></a>
     
-    <p class="top-menu">Hello {{ user.username }} <small>(<a href="{% url 'logout' %}" title="Log Out">Log Out</a>)</small></p>
+     <p class="top-menu">Hello {{ user.username }} <small>(<a href="{% url 'logout' %}?next=/" title="Log Out">Log Out</a>)</small></p>
      {% else %}
     <a href="{% url 'login' %}" class="top-menu"><i class="fas fa-sign-in-alt fa-2x" title="Log In"></i></a>
      {% endif %}

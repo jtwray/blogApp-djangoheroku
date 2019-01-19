@@ -39,7 +39,8 @@ urlpatterns = [
     path('comment/<int:pk>/approve/', views.comment_approve, name='comment_approve'),
        # 127.0.0.1:8000/signup --> local
     # mydjangosite.com/signup--> online
-    path('signup/',views.signup, name='signup')
+    path('signup/',views.signup, name='signup'),
+    path('logout/',views.logout_view,name='logout')
     # path(r'^accounts/login/$', auth_views.LoginView.as_view(template_name='registration/login.html')),
     #path)
     #url('^change-password/$', auth_views.PasswordChangeView.as_view()),

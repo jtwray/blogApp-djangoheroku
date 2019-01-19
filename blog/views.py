@@ -1,6 +1,6 @@
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
-from django.contrib.auth import login
+from django.contrib.auth import login, logout
 from django.shortcuts import get_object_or_404, redirect, render
 from django.utils import timezone
 
@@ -101,3 +101,7 @@ def signup(request):
     else:
         form = UserForm()
     return render(request, 'blog/signup.html', {'form': form})    
+
+def logout_view(request):
+    logout(request)
+    return redirect('/')

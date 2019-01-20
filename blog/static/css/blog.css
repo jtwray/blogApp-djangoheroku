@@ -12,6 +12,12 @@ body{
     background-size: cover;
     color: whitesmoke;
     font-weight:500;
+    height: auto;
+    margin: 0 auto -80px;
+    min-height: 100%;
+    padding: 0 0 80px;
+    box-sizing: border-box;
+    overflow: auto;
 }
 .loginh2 {
     color: gainsboro;
@@ -136,13 +142,13 @@ body h1 a {
     text-shadow: 2px 0px 6px #010101, 1px 1px 5px #030303;
 }
 
-
-
 footer
 {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    height:60px;
+    box-sizing:border-box;
 }
 
 ul{
@@ -243,51 +249,199 @@ ul li:nth-child(10) a
 }
 ul:hover li:nth-child(1) a
 {
-    transform: translateX(64px) rotate(720deg);
+    transform: translateY(64px) rotate(720deg);
     transition: 1.1s;
 }
 ul:hover li:nth-child(2) a
 {
-    transform: translateX(128px) rotate(720deg);
+    transform: translateYY128px) rotate(720deg);
     transition: 1.2s;
 }
 ul:hover li:nth-child(3) a
 {
-    transform: translateX(192px) rotate(720deg);
+    transform: translateY(192px) rotate(720deg);
     transition: 1.3s;
 }
 ul:hover li:nth-child(4) a
 {
-    transform: translateX(256px) rotate(720deg);
+    transform: translateY(256px) rotate(720deg);
     transition: 1.4s;
 }
 ul:hover li:nth-child(5) a
 {
-    transform: translateX(320px) rotate(720deg);
+    transform: translateY(320px) rotate(720deg);
     transition: 1.5s;
 }
 ul:hover li:nth-child(6) a
 {
-    transform: translateX(384px) rotate(720deg);
+    transform: translateY(384px) rotate(720deg);
     transition: 1.6s;
 }
 ul:hover li:nth-child(7) a
 {
-    transform: translateX(448px) rotate(720deg);
+    transform: translateY(448px) rotate(720deg);
     transition: 1.7s;
 }
 ul:hover li:nth-child(8) a
 {
-    transform: translateX(512px) rotate(720deg);
+    transform: translateY(512px) rotate(720deg);
     transition: 1.8s;
 }
 ul:hover li:nth-child(9) a
 {
-    transform: translateX(576px) rotate(720deg);
+    transform: translateY(576px) rotate(720deg);
     transition: 1.9s;
 }
 ul:hover li:nth-child(10) a
 {
-    transform: translateX(640px) rotate(720deg);
+    transform: translateY(640px) rotate(720deg);
     transition: 2.1s;
 }
+
+@media (min-width: 40.1em)
+ul{
+    position: fixed;
+    bottom: 1%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 640px;
+    height: 60px;
+    }
+    
+    ul:before {
+        content: '\f1e0';
+        font-family: Font Awesome\ 5 Free;
+        font-weight: 900;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: url(https://cdn.shopify.com/s/files/1/0879/0542/products/pc1478_da4bcba9-c02d-40bd-88c6-8b32119d8933_1024x1024.jpg?v=1513990783);
+        border-radius: 30px;
+        text-align: center;
+        line-height: 60px;
+        color: #fff;
+        font-size: 30px;
+        margin: 0.2px;
+        transition: 0.5s;
+        z-index: 1;
+    }
+    
+    ul:hover::before
+    {
+        width: 60px;
+    }
+    ul li
+    {
+        position: absolute;
+        list-style: none;
+        transition: 1s;
+    }
+    
+    ul li a
+    {
+        display: block;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        background: #262626;
+        color: #fff;
+        margin: 0.2px;
+        border-radius: 50%;
+        font-size: 30px;
+    }
+    
+    ul li:nth-child(1) a
+    {
+        background: #6e5494
+    }
+    ul li:nth-child(2) a
+    {
+        background: #3b5999
+    }
+    ul li:nth-child(3) a
+    {
+        background: #1769ff
+    }
+    ul li:nth-child(4) a
+    {
+        background: #0077B5
+    }
+    ul li:nth-child(5) a
+    {
+        background: #55acee
+    }
+    
+    ul li:nth-child(6) a
+    {
+        background: #25d366
+    }
+    ul li:nth-child(7) a
+    {
+        background: #ff8833
+    }
+    ul li:nth-child(8) a
+    {
+        background: #e4405f
+    }
+    ul li:nth-child(9) a
+    {
+        background: #bd081c
+    }
+    ul li:nth-child(10) a
+    {
+        background: #35465c
+    }
+    ul:hover li:nth-child(1) a
+    {
+        transform: translateX(64px) rotate(720deg);
+        transition: 1.1s;
+    }
+    ul:hover li:nth-child(2) a
+    {
+        transform: translateX(128px) rotate(720deg);
+        transition: 1.2s;
+    }
+    ul:hover li:nth-child(3) a
+    {
+        transform: translateX(192px) rotate(720deg);
+        transition: 1.3s;
+    }
+    ul:hover li:nth-child(4) a
+    {
+        transform: translateX(256px) rotate(720deg);
+        transition: 1.4s;
+    }
+    ul:hover li:nth-child(5) a
+    {
+        transform: translateX(320px) rotate(720deg);
+        transition: 1.5s;
+    }
+    ul:hover li:nth-child(6) a
+    {
+        transform: translateX(384px) rotate(720deg);
+        transition: 1.6s;
+    }
+    ul:hover li:nth-child(7) a
+    {
+        transform: translateX(448px) rotate(720deg);
+        transition: 1.7s;
+    }
+    ul:hover li:nth-child(8) a
+    {
+        transform: translateX(512px) rotate(720deg);
+        transition: 1.8s;
+    }
+    ul:hover li:nth-child(9) a
+    {
+        transform: translateX(576px) rotate(720deg);
+        transition: 1.9s;
+    }
+    ul:hover li:nth-child(10) a
+    {
+        transform: translateX(640px) rotate(720deg);
+        transition: 2.1s;
+    }

@@ -300,13 +300,13 @@ ul{
 
 ul{
 position: fixed;
-bottom: 1%;
-left:50%;
+bottom: 5%;
+left:5%;
 transform: translate(-50%,-50%);
 margin: 0;
 padding: 0;
 display: flex;
-width: 640px;
+width: 60px;
 height: 60px;
 }
 

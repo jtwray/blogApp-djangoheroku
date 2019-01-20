@@ -6,15 +6,12 @@ h1{
 }
 body{
     background: url(https://cdn.shopify.com/s/files/1/0879/0542/products/pc1478_da4bcba9-c02d-40bd-88c6-8b32119d8933_1024x1024.jpg?v=1513990783);
-    background-color: lightgoldenrodyellow;
-    background-repeat: no-repeat;
     background-size: contain;
-    background-size: cover;
     color: whitesmoke;
     font-weight:500;
     height: auto;
     margin: 0 auto -80px;
-    min-height: 100%;
+    min-height: 300px;
     padding: 0 0 80px;
     box-sizing: border-box;
     overflow: auto;
@@ -254,7 +251,7 @@ ul:hover li:nth-child(1) a
 }
 ul:hover li:nth-child(2) a
 {
-    transform: translateYY128px) rotate(720deg);
+    transform: translateY(128px) rotate(720deg);
     transition: 1.2s;
 }
 ul:hover li:nth-child(3) a
@@ -298,7 +295,7 @@ ul:hover li:nth-child(10) a
     transition: 2.1s;
 }
 
-@media (min-width: 40.1em)
+@media (min-width: 40.1em){
 ul{
     position: fixed;
     bottom: 1%;
@@ -445,3 +442,4 @@ ul{
         transform: translateX(640px) rotate(720deg);
         transition: 2.1s;
     }
+}

@@ -30,7 +30,7 @@ DEBUG = True
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
-ALLOWED_HOSTS = ['tuckerwray.herokuapp.com','thawing-depths-54577.herokuapp.com', '127.0.0.1','localhost',"https://blogapp-pipe-jtwray-pat-wiktvw.herokuapp.com/"]
+ALLOWED_HOSTS = ['tuckerwray.herokuapp.com','thawing-depths-54577.herokuapp.com', '127.0.0.1','localhost',"blogapp-pipe-jtwray-pat-wiktvw.herokuapp.com/"]
 
 LOGIN_REDIRECT_URL  = '/'
 # Application definition

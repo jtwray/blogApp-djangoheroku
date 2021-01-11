@@ -144,7 +144,11 @@ body h1 a {
     margin-bottom: 70px;
     margin: 20px 0px 20px 20px;
     max-width: 78%;
-    
+    color:black;
+    }
+
+.post:hover{
+    color:cornflowerblue;
 }
 
 .post h1 a:active {
@@ -191,8 +195,7 @@ div#contacts_animation {
     width: 100px;
     height: fit-content;
     min-height: 600px;
-    border: solid cornflowerblue 3px;
-}
+    }
  footer ul {
     position: fixed;
     bottom: 5%;
@@ -247,23 +250,23 @@ div#contacts_animation {
         font-size: 30px;
     }
     
-  footer ul li:nth-child(1) a
+    footer ul li:nth-child(1) a
     {
         background: #6e5494
     }
- footer ul li:nth-child(2) a
+    footer ul li:nth-child(2) a
     {
         background: #3b5999
     }
-footer ul li:nth-child(3) a
+    footer ul li:nth-child(3) a
     {
         background: #1769ff
     }
- footer ul li:nth-child(4) a
+    footer ul li:nth-child(4) a
     {
         background: #0077B5
     }
-  footer ul li:nth-child(5) a
+    footer ul li:nth-child(5) a
     {
         background: #55acee
     }
@@ -284,7 +287,7 @@ footer ul li:nth-child(3) a
     {
         background: #bd081c
     }
-   footer ul li:nth-child(10) a
+    footer ul li:nth-child(10) a
     {
         background: #35465c
     }
